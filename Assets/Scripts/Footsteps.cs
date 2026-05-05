@@ -29,7 +29,7 @@ public class Footsteps : MonoBehaviour
     void Start()
     {
         distToGround = GetComponent<Collider>().bounds.extents.y;
-        
+
         // Usunięto: Inicjalizację słownika.
     }
 
@@ -137,7 +137,7 @@ public class Footsteps : MonoBehaviour
     private void PlaySurfaceSound(FMOD.Studio.EventInstance soundInstance, EventReference eventRef, string surfaceTag)
     {
         // Zmienna przechowująca parametr FMOD. Domyślnie ustawiona na null/pusty string.
-        string surfaceParameter = null; 
+        string surfaceParameter = null;
 
         // Instrukcja SWITCH do mapowania Tagu na Parametr FMOD.
         switch (surfaceTag)
@@ -147,7 +147,7 @@ public class Footsteps : MonoBehaviour
             case "Outside": // "Outside" również używa parametru "Stone"
                 surfaceParameter = "Stone";
                 break;
-            
+
             case "Wood":
             case "Inside_wood":
                 surfaceParameter = "Wood";
@@ -164,7 +164,7 @@ public class Footsteps : MonoBehaviour
             soundInstance = RuntimeManager.CreateInstance(eventRef);
             soundInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
             // Ustawia parametr FMOD na podstawie ustalonej wartości.
-            soundInstance.setParameterByNameWithLabel("Footsteps_surface", surfaceParameter); 
+            soundInstance.setParameterByNameWithLabel("Footsteps_surface", surfaceParameter);
             soundInstance.start();
             soundInstance.release();
         }
@@ -176,5 +176,5 @@ public class Footsteps : MonoBehaviour
     bool IsGrounded()
     {
         return Physics.Raycast(transform.position, Vector3.down, distToGround + 0.5f);
-    }  
+    }
 }
