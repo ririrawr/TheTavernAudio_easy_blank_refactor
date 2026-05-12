@@ -54,33 +54,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 177000
---- !u!114 &-1537183786769157070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Inside
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: snapshot:/Inside
-  Guid:
-    Data1: -1819863016
-    Data2: 1324258279
-    Data3: 2101277319
-    Data4: 2052833934
-  Banks:
-  - {fileID: 5700235102427261474}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-1287904541671775372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,8 +102,6 @@ MonoBehaviour:
   - {fileID: -8858856351500590379}
   - {fileID: -1287904541671775372}
   - {fileID: -8827414775314895341}
-  - {fileID: -1537183786769157070}
-  - {fileID: 6354349928496928017}
   - {fileID: 1816109853209221715}
   EditorParameters: []
   MasterBanks:
@@ -138,7 +109,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1656142356727744720}
   cacheVersion: 131859
-  cacheTime: 639136066373847048
+  cacheTime: 639142107243241174
   SerializableEventsDict:
   - key: event:/forestAudio (2)
     index: 0
@@ -148,12 +119,8 @@ MonoBehaviour:
     index: 2
   - key: event:/BarAudio
     index: 3
-  - key: snapshot:/Inside
-    index: 4
-  - key: snapshot:/New Snapshot 2
-    index: 5
   - key: snapshot:/Outside
-    index: 6
+    index: 4
 --- !u!114 &352307831428089896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,10 +163,10 @@ MonoBehaviour:
   Path: Assets/ForestTry1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639136066373847048
+  lastModified: 639142107243241174
   FileSizes:
   - Name: Desktop
-    Value: 1256
+    Value: 1162
   Exists: 1
 --- !u!114 &1816109853209221715
 MonoBehaviour:
@@ -243,38 +210,11 @@ MonoBehaviour:
   Path: Assets/ForestTry1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639136066373831980
+  lastModified: 639142107243221170
   FileSizes:
   - Name: Desktop
-    Value: 6790272
+    Value: 6789760
   Exists: 1
---- !u!114 &6354349928496928017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/New Snapshot 2
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: snapshot:/New Snapshot 2
-  Guid:
-    Data1: 1322689371
-    Data2: 1251577503
-    Data3: 918504894
-    Data4: 2113177151
-  Banks:
-  - {fileID: 5700235102427261474}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &6753408952253023637
 MonoBehaviour:
   m_ObjectHideFlags: 0
