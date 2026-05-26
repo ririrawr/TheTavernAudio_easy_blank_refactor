@@ -109,7 +109,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1656142356727744720}
   cacheVersion: 131859
-  cacheTime: 639142107243241174
+  cacheTime: 639154140616012968
   SerializableEventsDict:
   - key: event:/forestAudio (2)
     index: 0
@@ -163,10 +163,10 @@ MonoBehaviour:
   Path: Assets/ForestTry1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639142107243241174
+  lastModified: 639154140616012968
   FileSizes:
   - Name: Desktop
-    Value: 1162
+    Value: 1298
   Exists: 1
 --- !u!114 &1816109853209221715
 MonoBehaviour:
@@ -210,10 +210,10 @@ MonoBehaviour:
   Path: Assets/ForestTry1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639142107243221170
+  lastModified: 639154140616002118
   FileSizes:
   - Name: Desktop
-    Value: 6789760
+    Value: 6790208
   Exists: 1
 --- !u!114 &6753408952253023637
 MonoBehaviour:

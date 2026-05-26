@@ -27,7 +27,7 @@ public class VCA : MonoBehaviour
     {
         // Pobiera VCAs z FMOD.
         globalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Mute");
-        musicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Music");
+        //musicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Music");
         tavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Tavern_amb");
         outsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Outside_amb");
 

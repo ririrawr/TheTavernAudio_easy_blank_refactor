@@ -232,6 +232,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2131066730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &56230206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &56230211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56230206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Doors
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &129069795
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +737,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159108037}
+    - targetCorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1986949998}
+    - targetCorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 56230211}
+    - targetCorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 314328060}
   m_SourcePrefab: {fileID: 100100000, guid: cb181bc6c302bca40929333077286a04, type: 3}
 --- !u!1 &159108029 stripped
 GameObject:
@@ -1104,6 +1147,40 @@ Transform:
   - {fileID: 262522723}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &314328055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &314328060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314328055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Doors
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &314888809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,6 +2351,7 @@ GameObject:
   - component: {fileID: 613997989}
   - component: {fileID: 613997994}
   - component: {fileID: 613997995}
+  - component: {fileID: 613997996}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2504,6 +2582,22 @@ MonoBehaviour:
       Data3: 2057722770
       Data4: -1690471289
     Path: snapshot:/Outside
+--- !u!114 &613997996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f4ed2e91580f4459a40df16f56ba56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VCA
+  globalMuteActive: 1
+  musicMuteActive: 0
+  tavernMuteActive: 0
+  outsideMuteActive: 0
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6836,6 +6930,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 185862706}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1986949993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1986949998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986949993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Doors
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1997705575
 GameObject:
   m_ObjectHideFlags: 0
