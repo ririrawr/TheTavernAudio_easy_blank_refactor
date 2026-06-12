@@ -254,11 +254,11 @@ MonoBehaviour:
   isRotating: 0
   doorsEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1344947559
+      Data2: 1307569821
+      Data3: -1991251266
+      Data4: -1661149435
+    Path: event:/Door
   insideRoomSnap:
     Guid:
       Data1: 0
@@ -1169,11 +1169,11 @@ MonoBehaviour:
   isRotating: 0
   doorsEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1344947559
+      Data2: 1307569821
+      Data3: -1991251266
+      Data4: -1661149435
+    Path: event:/Door
   insideRoomSnap:
     Guid:
       Data1: 0
@@ -2548,18 +2548,18 @@ MonoBehaviour:
     Path: event:/footSteps/FootSteps
   jumpEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -814420334
+      Data2: 1265598712
+      Data3: -1476333433
+      Data4: -721324463
+    Path: event:/Jump
   landEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -33727717
+      Data2: 1177521316
+      Data3: 45243027
+      Data4: 1830191742
+    Path: event:/Landing
   isGrounded: 1
   isJumping: 0
 --- !u!114 &613997995
@@ -5641,6 +5641,69 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666640281}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1673841376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673841378}
+  - component: {fileID: 1673841377}
+  m_Layer: 0
+  m_Name: MUsic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1673841377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673841376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1205754210
+      Data2: 1168914346
+      Data3: -1644302429
+      Data4: 808313594
+    Path: event:/MusicAudio
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 4.91
+  OverrideMaxDistance: 14.48
+--- !u!4 &1673841378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673841376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 398.14, y: 7.039, z: 318.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685699550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6952,11 +7015,11 @@ MonoBehaviour:
   isRotating: 0
   doorsEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1344947559
+      Data2: 1307569821
+      Data3: -1991251266
+      Data4: -1661149435
+    Path: event:/Door
   insideRoomSnap:
     Guid:
       Data1: 0
@@ -7102,7 +7165,7 @@ Transform:
   m_GameObject: {fileID: 1997705575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400.385, y: 8.63, z: 315.242}
+  m_LocalPosition: {x: 399.407, y: 18.32, z: 315.242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7687,3 +7750,4 @@ SceneRoots:
   - {fileID: 1686507337}
   - {fileID: 1230134280}
   - {fileID: 1997705580}
+  - {fileID: 1673841378}

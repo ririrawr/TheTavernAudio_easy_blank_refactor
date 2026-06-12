@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d6f34c48-e4e0-4560-a7ce-38c16d4aa8a2}">
+		<property name="assetPath">
+			<value>Jump/Jump5.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.59172916666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5a2f2de2-b876-47e9-96ae-f5de37448688}</destination>
+		</relationship>
+	</object>
+</objects>

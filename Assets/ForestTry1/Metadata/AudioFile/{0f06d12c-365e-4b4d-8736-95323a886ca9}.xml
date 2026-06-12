@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{073ee13e-212e-4a2d-a816-ffba67d84e80}">
+	<object class="AudioFile" id="{0f06d12c-365e-4b4d-8736-95323a886ca9}">
 		<property name="assetPath">
-			<value>forestaudio.flac</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>LandingStone/LandingStone5.flac</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>177.11835416666668</value>
+			<value>0.31487500000000002</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{5a2f2de2-b876-47e9-96ae-f5de37448688}</destination>
